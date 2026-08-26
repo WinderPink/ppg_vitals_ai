@@ -1,0 +1,85 @@
+# ==========================================
+# Root .gitignore - UET Phase 2 Team 7
+# Smart Vital Monitoring (PPG + TinyML + BLE)
+# ==========================================
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- Python / TinyML ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Dataset / file dữ liệu lớn trong tinyml_workspace (giữ folder bằng .gitkeep)
+tinyml_workspace/dataset/**
+!tinyml_workspace/dataset/.gitkeep
+
+# Model artifacts nặng (tuỳ chọn commit .h / .tflite nhỏ; ignore checkpoint lớn)
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+saved_model/
+
+# ---------- Simplicity Studio / SLC ----------
+.projectlinkstore
+.silabsExtContext
+.slc_workspace/
+**/.slc_state
+
+# ---------- Silicon Labs SDK & Autogen ----------
+**/autogen/
+**/simplicity_sdk_*/
+**/gecko_sdk_*/
+
+# ---------- Build outputs ----------
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/build.ninja
+**/build-*.ninja
+**/.ninja_deps
+**/.ninja_log
+**/compile_commands.json
+
+# ---------- Binary / firmware artifacts ----------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.elf
+*.axf
+*.out
+*.map
+*.bin
+*.hex
+*.lst
+*.s37
+*.gbl
+
+# ---------- Misc ----------
+*.log
+*.tmp
+*.bak
+~$*

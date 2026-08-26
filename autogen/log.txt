@@ -1,0 +1,36 @@
+****************************************************************************************************
+Processing step 8 of 8
+codegen: codegen: Generate "C++" source code from the compiled model
+Adding buffer: PrimaryTensorArena: size=19.6k section=.bss
+Adding buffer: PagingBuffer: size=32.0k section=.bss
+Adding "const" keyword to model data variable since it's in the .rodata data section
+Destination directory=D:/DOCUMENTS_DOWNLOADS/CODE_LEARN/PYTHON/AI_MAX30102/models/temp_9e82108dcb6046559a0eb7dd0b3f556b/codegen
+Cleaning destination directory=D:/DOCUMENTS_DOWNLOADS/CODE_LEARN/PYTHON/AI_MAX30102/models/temp_9e82108dcb6046559a0eb7dd0b3f556b/codegen
+Including the following manifest sections:
+accelerators.cmsis.kernels.impl.conv_2d
+accelerators.cmsis.kernels.impl.max_pool_2d
+accelerators.mvpv1.core
+accelerators.mvpv1.kernels.fallback.conv_2d
+accelerators.mvpv1.kernels.fallback.max_pool_2d
+accelerators.mvpv1.kernels.impl.conv_2d
+accelerators.mvpv1.kernels.impl.fully_connected
+accelerators.mvpv1.kernels.impl.max_pool_2d
+accelerators.sw_ref.kernels.impl.expand_dims
+accelerators.sw_ref.kernels.impl.mean
+accelerators.sw_ref.kernels.impl.reshape
+core
+core.compiled_model
+core.flatbuffers
+core.gemmlowp
+core.half
+core.ruy
+core.tflite_micro_model
+core.tflm
+core.utils
+features.cmsis_nn
+platforms.efr32xg26.core
+platforms.efr32xg26.features.cmsis_nn
+Stripped 4.7k of strings from the .tflite model
+Generated D:/DOCUMENTS_DOWNLOADS/CODE_LEARN/PYTHON/AI_MAX30102/models/temp_9e82108dcb6046559a0eb7dd0b3f556b/codegen/bp_model_int8_generated.hpp
+from D:\DOCUMENTS_DOWNLOADS\CODE_LEARN\PYTHON\AI_MAX30102\models\bp_model_int8.tflite
+Finished processing step 8 of 8 in 0.45 seconds

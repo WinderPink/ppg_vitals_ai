@@ -1,0 +1,4 @@
+#CRC Codes for initially generated config files -- do not modify!
+sl_driver_mvp_config.h=-409266861
+sl_nn_mvp_config.h=-329255471
+tflite/bp_model.mlconf=-320822145

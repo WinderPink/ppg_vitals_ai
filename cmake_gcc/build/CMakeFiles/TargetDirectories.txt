@@ -1,0 +1,4 @@
+D:/DOCUMENTS_DOWNLOADS/TOOLS/SIMPLICITY_STUDIO/free_rtos/cmake_gcc/build/CMakeFiles/slc.dir
+D:/DOCUMENTS_DOWNLOADS/TOOLS/SIMPLICITY_STUDIO/free_rtos/cmake_gcc/build/CMakeFiles/free_rtos.dir
+D:/DOCUMENTS_DOWNLOADS/TOOLS/SIMPLICITY_STUDIO/free_rtos/cmake_gcc/build/CMakeFiles/edit_cache.dir
+D:/DOCUMENTS_DOWNLOADS/TOOLS/SIMPLICITY_STUDIO/free_rtos/cmake_gcc/build/CMakeFiles/rebuild_cache.dir
