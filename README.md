@@ -67,7 +67,7 @@ Dự án xây dựng một hệ thống thiết bị đeo tay (wearable) gồm h
 
 ## Kiến trúc hệ thống
 
-<img width="975" height="639" alt="image" src="https://github.com/user-attachments/assets/6dd2b804-6376-4ca2-aaf7-5902b61a03fc" />
+<img width="933" height="612" alt="image" src="https://github.com/user-attachments/assets/520bc814-92f6-4cb6-9f1a-ff94d84faa3e" />
 
 Node được tổ chức theo kiến trúc FreeRTOS với 4 tác vụ (task) hoạt động song song, giao tiếp qua semaphore/queue/priority:
 
